@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import { NavLink } from "react-router-dom";
 
 //export const X = styled.Y``;
 export const Container = styled.div`
@@ -8,8 +8,8 @@ export const Container = styled.div`
   padding: 0 16px;
 `;
 
-export const Header = styled.header`
-  display: flex;
+export const Header = styled.header` 
+display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 12px;
@@ -17,12 +17,24 @@ export const Header = styled.header`
   margin-bottom: 16px;
   border-bottom: 1px solid black;
 
-  > nav {
-    display: flex;
-  }
-`;
+  > nav {display: flex;justify-content: space-between; width: 200px};
+
+  `;
 
 export const Logo = styled.p`
   font-weight: 700;
   margin: 0;
+`;
+
+export const Links = styled(NavLink)`
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: blue;
+  font-weight: 500;
+
+  &.active {
+    color: grey;
+    background-color: yellow;
+  }
 `;

@@ -1,8 +1,11 @@
-//import { products } from "useful/fakeAPI.jsx"
+import { products } from "../useful/fakeAPI.js"
+import {ProductsList} from "../components/ProductsList.jsx"
 
 export const Products = () =>
-{
-  return(<p>The Products</p>
-         //<ul>{products.map( (el) => <li key={el.id}>{el.name}</li>)}</ul>
+{ 
+  return(
+         <div>
+            <ProductsList products={products}/>
+         </div>
         )  
 }
