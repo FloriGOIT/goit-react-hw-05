@@ -1,5 +1,5 @@
-const urlmovieDetails = "https://api.themoviedb.org/3/movie/786892?api_key=46829fa1f677f290fd75025af8b47e21"
-const movieDetails = 
+export const urlmovieDetails = "https://api.themoviedb.org/3/movie/786892?api_key=46829fa1f677f290fd75025af8b47e21"
+export const movieDetails = 
 {
     "adult": false,
     "backdrop_path": "/wNAhuOZ3Zf84jCIlrcI6JhgmY5q.jpg",

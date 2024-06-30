@@ -1,5 +1,5 @@
-const urlTrending = "https://api.themoviedb.org/3/trending/movie/day?api_key=46829fa1f677f290fd75025af8b47e21"
-const trending = 
+export const urlTrending = "https://api.themoviedb.org/3/trending/movie/day?api_key=46829fa1f677f290fd75025af8b47e21"
+export const trending = 
 {
     "page": 1,
     "results": [
