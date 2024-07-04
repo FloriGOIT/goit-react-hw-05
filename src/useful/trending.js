@@ -348,5 +348,3 @@ export const trending =
     "total_results": 20000
 }
 
-console.log("trending", trending)
-console.log("urlTrending", urlTrending)

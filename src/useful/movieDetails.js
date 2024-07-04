@@ -84,5 +84,5 @@ export const movieDetails =
     "vote_count": 1358
   }
 
-console.log("movieDetails", movieDetails)
-console.log("ururlmovieDetails", urlmovieDetails)
+//console.log("movieDetails", movieDetails)
+//console.log("ururlmovieDetails", urlmovieDetails)
